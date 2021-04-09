@@ -78,7 +78,7 @@ async def alive(alive):
                     f"**{ALIVE_E_MMSG}**")
 
 if client2:
- @client2.on(events.NewMessage(outgoing=True, pattern='!javes'))
+ @client2.on(events.NewMessage(outgoing=True, pattern='!devil'))
  async def alive(alive):
     await alive.edit(""
                     f"**{ALIVE_S_MMSG}**\n\n"                     
@@ -95,7 +95,7 @@ if client2:
                     f"**{ALIVE_E_MMSG}**")
 
 if client3:
- @client3.on(events.NewMessage(outgoing=True, pattern='!javes'))
+ @client3.on(events.NewMessage(outgoing=True, pattern='!devil'))
  async def alive(alive):
     await alive.edit(""
                     f"**{ALIVE_S_MMSG}**\n\n"                     
@@ -115,7 +115,7 @@ if client3:
 @javes05(outgoing=True, pattern="^\.alive$")
 @javes05(outgoing=True, pattern="^\!alive$")
 async def alive(alive):
-    await alive.edit("Iam On type` !javes `or` !help `for more info")
+    await alive.edit("Iam On type` !devil `or` !help `for more info")
 
 
 
